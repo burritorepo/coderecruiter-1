@@ -1,0 +1,22 @@
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-items-center {
+    align-items: center;
+}
