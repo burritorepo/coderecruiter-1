@@ -21,49 +21,43 @@
         </header>
         <!-- main -->
         <main class="main">
-            <div class="container d-flex j-content-center">
-                <div class="login-container">
-                    <section class="login-title">
-                        <h1>Login</h1>
-                        <h2>Bienvenido!</h2>
-                        <p>Por favor ingresa tus datos</p>
-                    </section>
-
-                    <section class="login-input">
-                        <p class="login-tags">Usuario</p>
-                        <input type="text">
-                        <p class="login-tags">Password</p>
-                        <input type="text">
-                    </section>
-                    <div class="forgot-pass d-flex">
-                        <ul class="d-flex">
-                            <li><input type="checkbox">
-                            <li>
-                                <p class="login-tags">Recordar</p>
-                            </li>
-                        </ul>
-                        <a href="">
-                            <p class="login-tags">Olvidaste tu contraseña?</p>
-                        </a>
-                    </div>
-                    <a class="button button-primary button-large" href="">Login</a>
-                    <div class="gen-pass d-flex">
-                        <p class="login-tags">No tienes una cuenta?</p>
-                        <a href="">
-                            <p class="login-tags">Registrate aquí</p>
-                        </a>
-                    </div>
-                    
+            <div class="form">
+                <div class="form-title">
+                    <h1>Login</h1>
+                    <h2>Bienvenido!</h2>
+                    <span>Por favor ingresa tus datos</span>
                 </div>
+
+                <div class="form-controls">
+                    <div class="form-row">
+                        <label>Usuario</label>
+                        <input class="form-input" type="text">
+                    </div>
+                    <div class="form-row">
+                        <label>Password</label>
+                        <input class="form-input" type="password">
+                    </div>
+                    <div class="form-row form-flex-row">
+                        <div class="form-flex">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Recordar</label>
+                        </div>
+                        <a class="color-primary" href="">Olvidaste tu contraseña?</a>
+                    </div>
+                    <div class="form-row">
+                        <button class="button button-primary color-primary" href="">Login</button>
+                    </div>
+                    <div class="form-row">
+                        <p>No tienes una cuenta? <a class="color-primary" href="">Registrate aquí</a></p>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">
-                <p>Todos los derechos reservados | 2019
-
-                </p>
+                <p>Todos los derechos reservados | 2019</p>
                 <a href="" class="logo">
-                    <img src="/src/assets/images/logo/group.png" alt="">
-                </a>
+                    <img src="./src/assets/images/logo/group.png" alt=""></a>
             </div>
         </footer>
     </div>

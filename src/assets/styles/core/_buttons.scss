@@ -5,9 +5,14 @@
     padding: 10px 16px;
     font-size: 13px;
     cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    width: 100%;
 
     &.button-primary {
         background: #3dc154;
+        font-weight: bold;
     }
 
     &.button-secondary {

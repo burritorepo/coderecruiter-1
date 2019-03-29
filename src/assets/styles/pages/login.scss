@@ -1,27 +1,11 @@
 @import "../core/main";
 
 .page-login {
-    h1 {
-        font-size: 32px;
-        color: map-get($color-neutral, text-landing);
-        margin-bottom: 7px;
+  .form {
+    width: 307px;
+    margin: 100px auto 150px auto;
+    .form-title {
+      margin-bottom: 32px;
     }
-    h2 {
-        font-family: 'Exo';
-        font-size: 14px;
-        line-height: 20px;
-        color: #5d5d5d;
-        margin: 0;
-    }
-    .login-tags {
-        font-size: 11px;
-        color: #7f7f7f;
-        margin: 0 0 7px 0;
-    }
-    p {
-        color: #5d5d5d;
-    }
-    .login-title {
-        margin-bottom: 32px;
-    }
+  }
 }

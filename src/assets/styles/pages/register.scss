@@ -1,0 +1,28 @@
+@import "../core/main";
+
+.page-login {
+  .form {
+    width: 468px;
+    margin: auto;
+
+    .form-row {
+      width: 50%;
+      padding-right: 22px;
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+      }
+    }
+    .form-personal-info,
+    .form-user-account {
+      margin-right: -22px;
+    }
+    .form-title {
+      margin-bottom: 20px;
+    }
+    .bottom {
+      margin-top: 51px;
+      margin-bottom: 301px;
+    }
+  }
+}
