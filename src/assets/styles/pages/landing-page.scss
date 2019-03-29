@@ -20,6 +20,7 @@
   .button {
       border-radius: 29px;
       margin: 21px 0 0 0;
+      padding: 19px 43px;
   }
   p {
       line-height: 28px;
@@ -28,5 +29,31 @@
   .right {
     width:50%;
     padding: 0 25px 12px 25px;
+  }
+  .section-two {
+    p {
+      margin-bottom: 34px;
+    }
+    li img {
+      margin-right: 30px;
+      
+    }
+    .row1 {
+      margin-bottom: 46px;
+    }
+    .row2 {
+      margin-bottom: 104px;
+    }
+  }
+  .footer {
+    p {
+      font-size: 11px;
+      line-height: 28px;
+      color: #1b4f82;
+    }
+    img {
+      width: 80px;
+      height: 19px;
+    }
   }
 }

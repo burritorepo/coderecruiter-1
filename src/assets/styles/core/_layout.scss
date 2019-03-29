@@ -13,10 +13,22 @@
     }
 }
 
+.footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+
 .d-flex {
     display: flex;
 }
 
 .a-items-center {
     align-items: center;
+}
+
+.j-content-center {
+    justify-content: center;
 }
