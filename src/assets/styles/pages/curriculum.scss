@@ -1,7 +1,6 @@
 @import "../core/main";
-@import "../components/card";
 
-.page-dashboard {
+.page-curriculum {
   width: 980px;
   height: 1024px;
   margin: auto;
@@ -10,19 +9,19 @@
     font-size: 14px;
     line-height: 24px;
     &.sede1:hover {
-      display:block;
+      display: block;
       width: 100%;
       background: #ffba7a;
       opacity: 0.5;
     }
     &.sede2:hover {
-      display:block;
+      display: block;
       width: 100%;
       background: #f3f05c;
       opacity: 0.5;
     }
     &.sede3:hover {
-      display:block;
+      display: block;
       width: 100%;
       background: #3dc154;
       opacity: 0.5;
@@ -79,15 +78,77 @@
       }
     }
   }
-  .profiles {
+  .curriculums {
     width: 83.33%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: solid 1px #d5d5d5;
+    ul {
+      flex-wrap: wrap;
+    }
   }
   .locations {
     border: solid 1px #d5d5d5;
   }
+
+  .card-photo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    .card-title {
+
+      span {
+        display:block;
+      }
+
+      h1, 
+      .number,
+      .icons {
+        margin: 0 0 10px 10px;
+      
+    }
+    
+    h2 {
+      margin: 0;
+    }
+    img {
+      border: solid 3px #3dc154;
+      border-radius: 50%;
+      width: 112px;
+      height: 112px;
+    }
+  }
+
+  .button {
+    width: auto;
+    &.button-primary {
+      margin: 0 0 16px 20px;
+    }
+    &.button-secondary {
+      margin: 0 0 11px 11px;
+      font-size: 11px;
+    }
+  }
+  p {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  h6 {
+    font-size: 11px;
+    font-family: "Exo";
+  }
+  .articles-container {
+    margin-left: 20px;
+
+    .articles {
+      margin-top: 20px;
+      .article {
+        margin-left: 20px;
+      }
+    }
+  }
+ 
 }
