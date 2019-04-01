@@ -5,10 +5,11 @@
   width: 980px;
   height: 1024px;
   margin: auto;
-  a {
+  li {
     color: #5d5d5d;
     font-size: 14px;
     line-height: 24px;
+    vertical-align: center;
     &.sede1:hover {
       display:block;
       width: 100%;
@@ -66,15 +67,16 @@
   }
   .locations {
     width: 16.67%;
+    border: solid 1px #d5d5d5;
+    padding: 10px 0 0 13px;
     h2 {
       font-size: 18px;
       margin-bottom: 5px;
     }
     ul {
-      padding-left: 10px;
       li {
         font-size: 12px;
-        padding: 8px 0;
+        padding: 8px 0 8px 10px;
         display: block;
       }
     }
@@ -89,5 +91,8 @@
   }
   .locations {
     border: solid 1px #d5d5d5;
+  }
+  .footer {
+    margin: 0 50px 0 20px;
   }
 }

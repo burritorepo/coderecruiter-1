@@ -11,7 +11,6 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
-
 <body class="page-curriculum">
     <!-- header -->
     <header class="header">
@@ -39,13 +38,14 @@
             </ul>
         </aside>
         <section class="curriculums">
-            <article class="articles-container">
-                <p>Dashboard><span>Perfil</span></p>
-                <div class="card-photo">
+            <nav class="navigation"><a href="">Dashboard></a><a href=""><span class="color-primary">Perfil</span></a>
+            </nav>
+            <div class="user-profile">
+                <div class="card-photo d-flex">
                     <img src="./src/assets/images/card/photo1.png">
                     <div class="card-title">
                         <h1>Hacode Javascript</h1>
-                        <span>Full stack developer</span>
+                        <p>Full stack developer</p>
                         <div class="number">
                             <span class="fas fa-mobile-alt"></span>
                             <span>01-923-085975</span>
@@ -67,7 +67,11 @@
                     desarrollos responsive, pwa, y sistemas basados en spa. Tengo una diplomatura en ciencias politicas
                     pero me dedico a la programacion porque me parecio algo muy interesante y lo quise aprender para
                     complementar mis conocimientos ya que en el mundo actual todo se basa en tecnologia.</p>
-                <article>
+            </div>
+
+            <article class="articles-container">
+
+                <article class="skills">
                     <h2>Skills</h2>
                     <ul class="d-flex">
                         <li class="button button-primary">HTML5</li>
@@ -85,7 +89,7 @@
                     </ul>
                 </article>
 
-                <div>
+                <div class="class-projects">
                     <h2>Portfolio</h2>
                     <article class="articles d-flex">
                         <img src="src/assets/images/curriculum/dogs.png">
@@ -106,10 +110,62 @@
                         </ul>
                     </article>
                 </div>
+                <div class="class-projects">
+                    <h2>Portfolio</h2>
+                    <article class="articles d-flex">
+                        <img src="src/assets/images/curriculum/elveraz.png">
+                        <article class="article">
+                            <h4>Dog Shop</h4>
+                            <p>En esta pagina reforzamos los temas de semantica, css, flexbox, y vimos responsive web
+                                design, tambien creamos un mailing y aprendimos a utilizar la plataforma mailchimp para
+                                testear nuestros mailings. Utilizamos jquery, para instalar plugins y pudimos crear
+                                algunos archivos en sass,configurar </p>
+                        </article>
+                    </article>
+                    <article class="articles">
+                        <h6>Aprendimos</h6>
+                        <ul class="d-flex">
+                            <il class="button button-secondary">HTML5</il>
+                            <il class="button button-secondary">CSS3</il>
+                            <il class="button button-secondary">FLEXBOX</il>
+                            <il class="button button-secondary">NPM</il>
+                            <il class="button button-secondary">NODEJS</il>
+                            <il class="button button-secondary">SASS</il>
+                            <il class="button button-secondary">GULP</il>
+                            <il class="button button-secondary">MAILCHIMP</il>
+                            <il class="button button-secondary">MAILINGS</il>
+                        </ul>
+                    </article>
+                </div>
+                <div class="class-projects">
+                    <h2>Portfolio</h2>
+                    <article class="articles d-flex">
+                        <img src="src/assets/images/curriculum/Coderecruiter.png">
+                        <article class="article">
+                            <h4>Dog Shop</h4>
+                            <p>El enfoque de este proyecto fue desarrollar todo en sass, descomponiendo todo en pequeños
+                                archivos parciales para el manejo modular de nuestros recursos; Afianzamos temas de
+                                semantica, css3, gulp, sass, responsive web design, npm, mailings, flexbox y utilizamos
+                                firebase. </p>
+                        </article>
+                    </article>
+                    <article class="articles">
+                        <h6>Aprendimos</h6>
+                        <ul class="d-flex">
+                                <il class="button button-secondary">HTML5</il>
+                                <il class="button button-secondary">CSS3</il>
+                                <il class="button button-secondary">FLEXBOX</il>
+                                <il class="button button-secondary">NPM</il>
+                                <il class="button button-secondary">NODEJS</il>
+                                <il class="button button-secondary">SASS</il>
+                                <il class="button button-secondary">GULP</il>
+                                <il class="button button-secondary">MAILCHIMP</il>
+                                <il class="button button-secondary">MAILINGS</il>
+                                <il class="button button-secondary">FIREBASE</il>
+                        </ul>
+                    </article>
+                </div>
             </article>
-
-
-
             <footer class="footer">
                 <div class="container">
                     <p>Todos los derechos reservados | 2019</p>
