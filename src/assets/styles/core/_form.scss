@@ -8,7 +8,8 @@
     border-color: map-get($color-branding, primary);
   }
 
-  &.has-error {
+  &.has-error,
+  &:focus:invalid {
     border-color: #ff0000;
     color: #c60000;
   }
@@ -73,6 +74,11 @@
   .form-textarea {
     width: 100%;
     height: 106px;
+    &.has-error,
+    &:focus:invalid {
+      border-color: #ff0000;
+      color: #c60000;
+    }
   }
 }
 .form-row3 {

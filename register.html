@@ -21,104 +21,105 @@
         </header>
         <!-- main -->
         <main class="main">
-            <div class="form">
-                <div class="form-title">
-                    <h1>Sign up</h1>
-                    <h2>Welcome!</h2>
-                    <span>Please fill up our form</span>
-                </div>
+            <form>
+                <div class="form">
+                    <div class="form-title">
+                        <h1>Sign up</h1>
+                        <h2>Welcome!</h2>
+                        <span>Please fill up our form</span>
+                    </div>
 
-                <div class="form-personal-info form-flex-row form-wrap">
-                    <div class="form-row">
-                        <label>Name</label>
-                        <input class="form-input" type="text">
+                    <div class="form-personal-info form-flex-row form-wrap">
+                        <div class="form-row">
+                            <label>Name</label>
+                            <input required class="js_name form-input" type="text">
+                        </div>
+                        <div class="form-row">
+                            <label>Lastname</label>
+                            <input required class="js_lastname form-input" type="text">
+                        </div>
+                        <div class="form-row">
+                            <label>Cellphone number</label>
+                            <input required pattern="\d{1,9}" class="js_number form-input" type="text">
+                        </div>
+                        <div class="form-row">
+                            <label>Address</label>
+                            <input required class="js_address form-input" type="text">
+                        </div>
                     </div>
-                    <div class="form-row">
-                        <label>Lastname</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row">
-                        <label>Cellphone number</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row">
-                        <label>Address</label>
-                        <input class="form-input" type="text">
-                    </div>
-                </div>
 
-                <div class="form-row">
-                    <label>Sex</label>
-                    <ul class="form-checkbox">
-                        <li> <span>F</span>
-                            <input type="radio" name="sex" checked value="female"></li>
-                        <li> <span>M</span>
-                            <input type="radio" name="sex" value="male"></li>
-                    </ul>
-                </div>
-
-                <div class="form-user-account form-flex-row form-wrap">
                     <div class="form-row">
-                        <label>User</label>
-                        <input class="form-input" type="text">
+                        <label>Sex</label>
+                        <ul class="form-checkbox">
+                            <li> <span>F</span>
+                                <input type="radio" class="js_radio-a" name="sex" checked value="female"></li>
+                            <li> <span>M</span>
+                                <input type="radio" class="js_radio-b" name="sex" value="male"></li>
+                        </ul>
                     </div>
-                    <div class="form-row">
-                        <label>Password</label>
-                        <input class="form-input" type="text">
-                    </div>
-                </div>
-                <div class="form-title">
-                    <h2>Career details</h2>
-                    <span>Please fill up our form</span>
-                </div>
 
-                <div class="form-personal-info form-wrap">
-                    <div class="form-row">
-                        <label>Career path</label>
-                        <select class="form-select">
-                            <option value="" hidden>Choose</option>
-                            <option value="Front-end">Front-end</option>
-                            <option value="Back-end">Back-end</option>
-                            <option value="Scrum Master">Scrum Master</option>
-                        </select>
+                    <div class="form-user-account form-flex-row form-wrap">
+                        <div class="form-row">
+                            <label>User</label>
+                            <input required class="js_user form-input" type="text">
+                        </div>
+                        <div class="form-row">
+                            <label>Password</label>
+                            <input required class="js_password form-input" type="text">
+                        </div>
+                    </div>
+                    <div class="form-title">
+                        <h2>Career details</h2>
+                        <span>Please fill up our form</span>
+                    </div>
+                    <div class="form-personal-info form-wrap">
+                        <div class="form-row">
+                            <label>Career path</label>
+                            <select class="js_career form-select">
+                                <option value="" hidden>Choose</option>
+                                <option value="Front-end">Front-end</option>
+                                <option value="Back-end">Back-end</option>
+                                <option value="Scrum Master">Scrum Master</option>
+                            </select>
+                        </div>
+                        <div class="form-row2">
+                            <label>About you</label>
+                            <textarea required class="js_about form-textarea" type="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-title">
+                        <h2>Social media</h2>
+                        <span>Please fill up our form</span>
+                    </div>
 
+                    <div class="form-personal-info">
+                        <div class="form-row3">
+                            <label>Facebook</label>
+                            <input required class="js_facebook form-input" type="text">
+                        </div>
+                        <div class="form-row3">
+                            <label>Twitter</label>
+                            <input required class="js_twitter form-input" type="text">
+                        </div>
+                        <div class="form-row3">
+                            <label>Github</label>
+                            <input required class="js_github form-input" type="text">
+                        </div>
+                        <div class="form-row3">
+                            <label>Linkedin</label>
+                            <input required class="js_linkedin form-input" type="text">
+                        </div>
+                        <div class="form-row3">
+                            <label>Codepen</label>
+                            <input required class="js_codepen form-input" type="text">
+                        </div>
                     </div>
-                    <div class="form-row2">
-                        <label>About you</label>
-                        <textarea class="form-textarea" type="text"></textarea>
-                    </div>
-                </div>
-                <div class="form-title">
-                    <h2>Social media</h2>
-                    <span>Please fill up our form</span>
-                </div>
-
-                <div class="form-personal-info">
-                    <div class="form-row3">
-                        <label>Facebook</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row3">
-                        <label>Twitter</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row3">
-                        <label>Github</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row3">
-                        <label>Linkedin</label>
-                        <input class="form-input" type="text">
-                    </div>
-                    <div class="form-row3">
-                        <label>Codepen</label>
-                        <input class="form-input" type="text">
+                    <div class="form-personal-info bottom">
+                        <button type="submit" class="js_button button button-primary color-primary" href="">Sign
+                            up</button>
                     </div>
                 </div>
-                <div class="form-personal-info bottom">
-                    <button class="button button-primary color-primary" href="">Sign up</button>
-                </div>
-            </div>
+            </form>
     </div>
     </main>
     <footer class="footer">
@@ -129,6 +130,87 @@
         </div>
     </footer>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAV5LcOtUQcAolHV1HmwquA3Hhd7nWCSSk",
+            authDomain: "coderecruiter-e0fe7.firebaseapp.com",
+            databaseURL: "https://coderecruiter-e0fe7.firebaseio.com",
+            projectId: "coderecruiter-e0fe7",
+            storageBucket: "coderecruiter-e0fe7.appspot.com",
+            messagingSenderId: "370424844299"
+        };
+        firebase.initializeApp(config);
+
+        function getValues() {
+            let name,
+                lastname,
+                cellphone,
+                address,
+                genreF,
+                genreM,
+                user,
+                password,
+                career,
+                about,
+                fb,
+                twitter,
+                git,
+                linkedin,
+                codepen;
+
+            name = document.querySelector('.js_name');
+            lastname = document.querySelector('.js_lastname');
+            cellphone = returnValue('.js_number');
+            address = returnValue('.js_address');
+            genreF = returnValue('.js_radio-a');
+            genreM = returnValue('.js_radio-b');
+            user = returnValue('.js_user');
+            password = returnValue('.js_password');
+            about = returnValue('.js_about');
+            fb = returnValue('.js_facebook');
+            twitter = returnValue('.js_twitter');
+            git = returnValue('.js_git');
+            linkedin = returnValue('.js_linkedin');
+            codepen = returnValue('.js_codepen');
+
+            let sex = (genreF) ? 'F' : 'M';
+
+            // values
+
+            return {
+                about,
+                address,
+                career,
+                cellphone,
+                genre,
+                lastname,
+                name,
+                codepen,
+                facebook,
+                github,
+                linkedin,
+                twitter,
+            }
+        }
+
+        //firebase
+        firebase.database().ref('users/' + userId).set(info);
+
+
+        function registerUser(email, password) {
+            firebase.auth().createUserWithEmailAndPassword(email, password)
+                .catch(function (error) {
+                    // Handle Errors here.
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    // ...
+                });
+        }
+
+    </script>
 </body>
 
 </html>

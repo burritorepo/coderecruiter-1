@@ -11,22 +11,21 @@
     line-height: 24px;
     vertical-align: center;
     &.sede1:hover {
-      display:block;
+      display: block;
       width: 100%;
-      background: #ffba7a;
-      opacity: 0.5;
+      background: rgba(255, 186, 122, 0.3);
     }
+
     &.sede2:hover {
-      display:block;
+      display: block;
       width: 100%;
-      background: #f3f05c;
-      opacity: 0.5;
+      background: rgba(255, 186, 122, 0.3);
     }
+
     &.sede3:hover {
-      display:block;
+      display: block;
       width: 100%;
-      background: #3dc154;
-      opacity: 0.5;
+      background: rgba(61, 193, 84, 0.3);
     }
   }
 

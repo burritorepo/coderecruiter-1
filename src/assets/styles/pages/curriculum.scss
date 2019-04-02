@@ -39,31 +39,33 @@
   .main {
     width: 980px;
     margin: auto;
+
     .locations {
       width: 16.67%;
       border: solid 1px #d5d5d5;
       padding: 10px 0 0 13px;
+
       a {
         color: #5d5d5d;
         font-size: 14px;
         line-height: 24px;
+
         &.sede1:hover {
           display: block;
           width: 100%;
-          background: #ffba7a;
-          opacity: 0.5;
+          background-color: rgba(255,186,122, 0.3);
         }
+
         &.sede2:hover {
           display: block;
           width: 100%;
-          background: #f3f05c;
-          opacity: 0.5;
+          background-color: rgba(255,186,122, 0.3);
         }
+        
         &.sede3:hover {
           display: block;
           width: 100%;
-          background: #3dc154;
-          opacity: 0.5;
+          background-color: rgba(61,193,84,0.3);
         }
       }
       h2 {
